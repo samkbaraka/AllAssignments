@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Forms1</title>
+        <style>
+            body{
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body> 
+        <h1>HTML form</h1>
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            <label for="firt name">First name:</label>
+            <input type="text" id="firt name" placeholder="Baraka" minlength="6" maxlength="16" required><br><br>
+
+
+            <label for="last name">Last name:</label>
+            <input type="text" id="last name" placeholder="Samuel" minlength="6" maxlength="16" required><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="someone@gmail.com" required><br><br>
+
+            
+            <label for="Male">Mr</label>
+            <input type="radio" id="Male" value="Male" name="title"><br>
+            <label for="Ms">Female</label>
+            <input type="radio" id="Female" value="Female" name="title"><br><br>
+
+
+            
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
